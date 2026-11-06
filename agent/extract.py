@@ -2,7 +2,7 @@
 
 Every extracted value carries evidence (page number + the OCR line it came from) so
 the routing decision can be audited. Nothing is inferred: if a field is not visibly
-present in the OCR text it stays None.
+present in the OCR text, then it stays None.
 
 Classification is driven by the document title line (the heading under the
 "FAX TRANSMISSION / SCANNED DOCUMENT" banner). Body text is NOT used to
@@ -21,9 +21,9 @@ from .sop import Category
 
 # titles
 # (regex on the upper-cased title line, category, role)
-# role: "primary" = a document in its own right; "supporting" = an attachment that
-# belongs to another document (only valid if that document is present in the packet);
-# "cover" = fax cover sheet (no category of its own).
+# role: "primary" = a document in its own right
+# "supporting" = an attachment that belongs to another document (only valid if that document is present in the packet)
+# "cover" = fax cover sheet (no category of its own)
 TITLE_RULES: list[tuple[re.Pattern, Optional[Category], str]] = [
     (re.compile(r"\bCOVER\b"), None, "cover"),
     (re.compile(r"AUTHORI[ZS]ATION\s+(TO|FOR)\s+RELEASE|RELEASE\s+OF\s+INFORMATION"), Category.RECORDS, "supporting"),

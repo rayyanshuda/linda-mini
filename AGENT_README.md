@@ -89,7 +89,7 @@ The E2E tests and the demo start their **own** portal per scenario, using a temp
 | `route_commit_then_503_once` | One submit click. The 503 is treated as an unknown outcome; the UI shows Routed with the right values, so the route is verified with no retry. |
 | crash `after_submit_click` / `before_submit_click` / `after_download` | Restart reconciles from the UI. No duplicate route; a cached PDF is reused after its hash is checked. |
 
-The tests read `/__admin/state` as an independent oracle: they use it to assert "one route per fax" and "the routing session differs from the download session". The agent itself doesn't calls any admin endpoint, the DB, or `data/faxes`.
+The tests read `/__admin/state` as an independent oracle: they use it to assert "one route per fax" and "the routing session differs from the download session". The agent itself doesn't call any admin endpoint, the DB, or `data/faxes`.
 
 ## Expected outcome on the supplied queue
 
