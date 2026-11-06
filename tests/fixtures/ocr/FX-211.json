@@ -1,0 +1,12 @@
+[
+  {
+    "page": 1,
+    "text": "NORTHBRIDGE IMAGING\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nFINAL IMAGING REPORT\n\nAccession: IMG-4111\nPatient: Elliot Brooks\n\nDOB: 07/18/1991\n\nExam: CT sinus without contrast\nReport status: Final\n\nImpression: Findings documented in full report.\n\nOrdering provider: Dr. D. Chen\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-211 Page lof1l\n",
+    "mean_conf": 90.6,
+    "word_count": 45,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-211 Pagelofl",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-211\n\nPage 1 of 1"
+    ]
+  }
+]

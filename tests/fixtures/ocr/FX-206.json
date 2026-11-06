@@ -1,0 +1,22 @@
+[
+  {
+    "page": 1,
+    "text": "HILLSIDE RECORDS OFFICE\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nREQUEST FOR MEDICAL RECORDS\n\nRecords request ID: MR-4006\nPatient: Cameron Blake\n\nDOB: 02/09/1980\n\nRequesting entity: Hillside Medical Group\nRequested records: Office visits, imaging reports\n\nDate range requested: 2025-2026\n\nPatient authorization: Included on page 2\n\nPlease process according to clinic release policy.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-206 Page 1 of 2\n",
+    "mean_conf": 95.1,
+    "word_count": 60,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-206 Page 1 of 2",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-206\n\nPage 1 of 2"
+    ]
+  },
+  {
+    "page": 2,
+    "text": "HILLSIDE RECORDS OFFICE\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nAUTHORIZATION TO RELEASE INFORMATION\n\nRelated request: MR-4006\nPatient: Cameron Blake\n\n| authorize release of records to Hillside Medical Group.\n\nSignature: Cameron Blake (synthetic example)\nDate signed: 10/31/2026\n\nFor assessment purposes only.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-206 Page 2 of 2\n",
+    "mean_conf": 94.3,
+    "word_count": 50,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-206 Page 2 of 2",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-206\n\nPage 2 of 2"
+    ]
+  }
+]

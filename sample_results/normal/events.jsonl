@@ -1,0 +1,106 @@
+{"at": "2026-11-06T08:42:55.379Z", "fax_id": null, "event": "run_started", "started_at": "2026-11-06T08:42:55.378Z", "base_url": "http://127.0.0.1:8765", "only": null}
+{"at": "2026-11-06T08:42:56.095Z", "fax_id": null, "event": "inventory", "count": 12, "fax_ids": ["FX-212", "FX-211", "FX-210", "FX-209", "FX-208", "FX-207", "FX-206", "FX-205", "FX-204", "FX-203", "FX-202", "FX-201"]}
+{"at": "2026-11-06T08:42:56.684Z", "fax_id": "FX-201", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:42:59.489Z", "fax_id": "FX-201", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:42:59.490Z", "fax_id": "FX-201", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:42:59.490Z", "fax_id": "FX-201", "event": "decision", "kind": "route", "category": "referral", "reasons": [], "duplicate_of": null}
+{"at": "2026-11-06T08:43:00.090Z", "fax_id": "FX-201", "event": "state", "frm": "DECIDED", "to": "SUBMIT_INTENT"}
+{"at": "2026-11-06T08:43:00.164Z", "fax_id": "FX-201", "event": "state", "frm": "SUBMIT_INTENT", "to": "SUBMITTED"}
+{"at": "2026-11-06T08:43:00.164Z", "fax_id": "FX-201", "event": "submit_outcome", "kind": "success", "url": "http://127.0.0.1:8765/faxes/FX-201?notice_type=success"}
+{"at": "2026-11-06T08:43:00.695Z", "fax_id": "FX-201", "event": "verify", "status": "verified", "match": true, "method": "fax detail page + Routed Documents table (fresh UI navigation)", "detail_status": "Routed", "observed_detail": {"assigned_to": "Olivia Chen - Referrals", "document_type": "Referral", "folder": "Referrals / New"}, "observed_work_queue": {"assigned_to": "Olivia Chen - Referrals", "document_type": "Referral", "folder": "Referrals / New"}, "verified_at": "2026-11-06T08:43:00.695Z", "session_id": "0o7bjY6B"}
+{"at": "2026-11-06T08:43:00.696Z", "fax_id": "FX-201", "event": "state", "frm": "SUBMITTED", "to": "DONE"}
+{"at": "2026-11-06T08:43:01.275Z", "fax_id": "FX-202", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:02.765Z", "fax_id": "FX-202", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:02.766Z", "fax_id": "FX-202", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:02.766Z", "fax_id": "FX-202", "event": "decision", "kind": "route", "category": "needs_review", "reasons": ["explicit urgent/critical flag: p1 \"CRITICAL RESULT - CALLING PROVIDER\"; p1 \"Critical value notification documented at 07:55.\""], "duplicate_of": null}
+{"at": "2026-11-06T08:43:03.416Z", "fax_id": "FX-202", "event": "state", "frm": "DECIDED", "to": "SUBMIT_INTENT"}
+{"at": "2026-11-06T08:43:03.485Z", "fax_id": "FX-202", "event": "state", "frm": "SUBMIT_INTENT", "to": "SUBMITTED"}
+{"at": "2026-11-06T08:43:03.485Z", "fax_id": "FX-202", "event": "submit_outcome", "kind": "success", "url": "http://127.0.0.1:8765/faxes/FX-202?notice_type=success"}
+{"at": "2026-11-06T08:43:04.426Z", "fax_id": "FX-202", "event": "verify", "status": "verified", "match": true, "method": "fax detail page + Routed Documents table (fresh UI navigation)", "detail_status": "Routed", "observed_detail": {"assigned_to": "Jordan Ellis - Manual Review", "document_type": "Needs Review", "folder": "Review / Unclassified"}, "observed_work_queue": {"assigned_to": "Jordan Ellis - Manual Review", "document_type": "Needs Review", "folder": "Review / Unclassified"}, "verified_at": "2026-11-06T08:43:04.426Z", "session_id": "S-VP_p0j"}
+{"at": "2026-11-06T08:43:04.427Z", "fax_id": "FX-202", "event": "state", "frm": "SUBMITTED", "to": "DONE"}
+{"at": "2026-11-06T08:43:05.077Z", "fax_id": "FX-203", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:06.525Z", "fax_id": "FX-203", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:06.526Z", "fax_id": "FX-203", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:06.526Z", "fax_id": "FX-203", "event": "decision", "kind": "route", "category": "imaging_report", "reasons": [], "duplicate_of": null}
+{"at": "2026-11-06T08:43:07.224Z", "fax_id": "FX-203", "event": "state", "frm": "DECIDED", "to": "SUBMIT_INTENT"}
+{"at": "2026-11-06T08:43:07.300Z", "fax_id": "FX-203", "event": "state", "frm": "SUBMIT_INTENT", "to": "SUBMITTED"}
+{"at": "2026-11-06T08:43:07.300Z", "fax_id": "FX-203", "event": "submit_outcome", "kind": "success", "url": "http://127.0.0.1:8765/faxes/FX-203?notice_type=success"}
+{"at": "2026-11-06T08:43:07.790Z", "fax_id": "FX-203", "event": "verify", "status": "verified", "match": true, "method": "fax detail page + Routed Documents table (fresh UI navigation)", "detail_status": "Routed", "observed_detail": {"assigned_to": "Noah Patel - Clinical Review", "document_type": "Imaging Report", "folder": "Clinical / Imaging"}, "observed_work_queue": {"assigned_to": "Noah Patel - Clinical Review", "document_type": "Imaging Report", "folder": "Clinical / Imaging"}, "verified_at": "2026-11-06T08:43:07.790Z", "session_id": "LLPlRX1M"}
+{"at": "2026-11-06T08:43:07.792Z", "fax_id": "FX-203", "event": "state", "frm": "SUBMITTED", "to": "DONE"}
+{"at": "2026-11-06T08:43:08.495Z", "fax_id": "FX-204", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:09.892Z", "fax_id": "FX-204", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:09.893Z", "fax_id": "FX-204", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:09.893Z", "fax_id": "FX-204", "event": "decision", "kind": "route", "category": "prior_authorization", "reasons": [], "duplicate_of": null}
+{"at": "2026-11-06T08:43:10.558Z", "fax_id": "FX-204", "event": "state", "frm": "DECIDED", "to": "SUBMIT_INTENT"}
+{"at": "2026-11-06T08:43:10.631Z", "fax_id": "FX-204", "event": "state", "frm": "SUBMIT_INTENT", "to": "SUBMITTED"}
+{"at": "2026-11-06T08:43:10.631Z", "fax_id": "FX-204", "event": "submit_outcome", "kind": "success", "url": "http://127.0.0.1:8765/faxes/FX-204?notice_type=success"}
+{"at": "2026-11-06T08:43:11.146Z", "fax_id": "FX-204", "event": "verify", "status": "verified", "match": true, "method": "fax detail page + Routed Documents table (fresh UI navigation)", "detail_status": "Routed", "observed_detail": {"assigned_to": "Ethan Brooks - Authorizations", "document_type": "Prior Authorization", "folder": "Authorizations / Pending"}, "observed_work_queue": {"assigned_to": "Ethan Brooks - Authorizations", "document_type": "Prior Authorization", "folder": "Authorizations / Pending"}, "verified_at": "2026-11-06T08:43:11.146Z", "session_id": "PWraKBs4"}
+{"at": "2026-11-06T08:43:11.148Z", "fax_id": "FX-204", "event": "state", "frm": "SUBMITTED", "to": "DONE"}
+{"at": "2026-11-06T08:43:11.751Z", "fax_id": "FX-205", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:13.190Z", "fax_id": "FX-205", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:13.191Z", "fax_id": "FX-205", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:13.191Z", "fax_id": "FX-205", "event": "decision", "kind": "route", "category": "refill_request", "reasons": [], "duplicate_of": null}
+{"at": "2026-11-06T08:43:13.810Z", "fax_id": "FX-205", "event": "state", "frm": "DECIDED", "to": "SUBMIT_INTENT"}
+{"at": "2026-11-06T08:43:13.888Z", "fax_id": "FX-205", "event": "state", "frm": "SUBMIT_INTENT", "to": "SUBMITTED"}
+{"at": "2026-11-06T08:43:13.888Z", "fax_id": "FX-205", "event": "submit_outcome", "kind": "success", "url": "http://127.0.0.1:8765/faxes/FX-205?notice_type=success"}
+{"at": "2026-11-06T08:43:14.404Z", "fax_id": "FX-205", "event": "verify", "status": "verified", "match": true, "method": "fax detail page + Routed Documents table (fresh UI navigation)", "detail_status": "Routed", "observed_detail": {"assigned_to": "Ava Wilson - Nursing / Medication", "document_type": "Refill Request", "folder": "Nursing / Medication"}, "observed_work_queue": {"assigned_to": "Ava Wilson - Nursing / Medication", "document_type": "Refill Request", "folder": "Nursing / Medication"}, "verified_at": "2026-11-06T08:43:14.404Z", "session_id": "znEXS6wp"}
+{"at": "2026-11-06T08:43:14.406Z", "fax_id": "FX-205", "event": "state", "frm": "SUBMITTED", "to": "DONE"}
+{"at": "2026-11-06T08:43:14.992Z", "fax_id": "FX-206", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:17.731Z", "fax_id": "FX-206", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:17.733Z", "fax_id": "FX-206", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:17.733Z", "fax_id": "FX-206", "event": "decision", "kind": "route", "category": "records_request", "reasons": [], "duplicate_of": null}
+{"at": "2026-11-06T08:43:18.349Z", "fax_id": "FX-206", "event": "state", "frm": "DECIDED", "to": "SUBMIT_INTENT"}
+{"at": "2026-11-06T08:43:18.429Z", "fax_id": "FX-206", "event": "state", "frm": "SUBMIT_INTENT", "to": "SUBMITTED"}
+{"at": "2026-11-06T08:43:18.429Z", "fax_id": "FX-206", "event": "submit_outcome", "kind": "success", "url": "http://127.0.0.1:8765/faxes/FX-206?notice_type=success"}
+{"at": "2026-11-06T08:43:18.946Z", "fax_id": "FX-206", "event": "verify", "status": "verified", "match": true, "method": "fax detail page + Routed Documents table (fresh UI navigation)", "detail_status": "Routed", "observed_detail": {"assigned_to": "Mia Gomez - Medical Records", "document_type": "Records Request", "folder": "Records / Requests"}, "observed_work_queue": {"assigned_to": "Mia Gomez - Medical Records", "document_type": "Records Request", "folder": "Records / Requests"}, "verified_at": "2026-11-06T08:43:18.946Z", "session_id": "FUoFKBfJ"}
+{"at": "2026-11-06T08:43:18.948Z", "fax_id": "FX-206", "event": "state", "frm": "SUBMITTED", "to": "DONE"}
+{"at": "2026-11-06T08:43:19.559Z", "fax_id": "FX-207", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:20.887Z", "fax_id": "FX-207", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:20.889Z", "fax_id": "FX-207", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:20.889Z", "fax_id": "FX-207", "event": "decision", "kind": "route", "category": "eob", "reasons": [], "duplicate_of": null}
+{"at": "2026-11-06T08:43:21.532Z", "fax_id": "FX-207", "event": "state", "frm": "DECIDED", "to": "SUBMIT_INTENT"}
+{"at": "2026-11-06T08:43:21.608Z", "fax_id": "FX-207", "event": "state", "frm": "SUBMIT_INTENT", "to": "SUBMITTED"}
+{"at": "2026-11-06T08:43:21.608Z", "fax_id": "FX-207", "event": "submit_outcome", "kind": "success", "url": "http://127.0.0.1:8765/faxes/FX-207?notice_type=success"}
+{"at": "2026-11-06T08:43:22.122Z", "fax_id": "FX-207", "event": "verify", "status": "verified", "match": true, "method": "fax detail page + Routed Documents table (fresh UI navigation)", "detail_status": "Routed", "observed_detail": {"assigned_to": "Liam Rivera - Billing", "document_type": "EOB", "folder": "Billing / EOBs"}, "observed_work_queue": {"assigned_to": "Liam Rivera - Billing", "document_type": "EOB", "folder": "Billing / EOBs"}, "verified_at": "2026-11-06T08:43:22.122Z", "session_id": "c2yjgBBt"}
+{"at": "2026-11-06T08:43:22.124Z", "fax_id": "FX-207", "event": "state", "frm": "SUBMITTED", "to": "DONE"}
+{"at": "2026-11-06T08:43:22.729Z", "fax_id": "FX-208", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:24.018Z", "fax_id": "FX-208", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:24.020Z", "fax_id": "FX-208", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:24.020Z", "fax_id": "FX-208", "event": "decision", "kind": "route", "category": "lab_result", "reasons": [], "duplicate_of": null}
+{"at": "2026-11-06T08:43:24.659Z", "fax_id": "FX-208", "event": "state", "frm": "DECIDED", "to": "SUBMIT_INTENT"}
+{"at": "2026-11-06T08:43:24.733Z", "fax_id": "FX-208", "event": "state", "frm": "SUBMIT_INTENT", "to": "SUBMITTED"}
+{"at": "2026-11-06T08:43:24.733Z", "fax_id": "FX-208", "event": "submit_outcome", "kind": "success", "url": "http://127.0.0.1:8765/faxes/FX-208?notice_type=success"}
+{"at": "2026-11-06T08:43:25.248Z", "fax_id": "FX-208", "event": "verify", "status": "verified", "match": true, "method": "fax detail page + Routed Documents table (fresh UI navigation)", "detail_status": "Routed", "observed_detail": {"assigned_to": "Noah Patel - Clinical Review", "document_type": "Lab Result", "folder": "Clinical / Labs"}, "observed_work_queue": {"assigned_to": "Noah Patel - Clinical Review", "document_type": "Lab Result", "folder": "Clinical / Labs"}, "verified_at": "2026-11-06T08:43:25.248Z", "session_id": "vowSan2P"}
+{"at": "2026-11-06T08:43:25.250Z", "fax_id": "FX-208", "event": "state", "frm": "SUBMITTED", "to": "DONE"}
+{"at": "2026-11-06T08:43:25.870Z", "fax_id": "FX-209", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:27.123Z", "fax_id": "FX-209", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:27.125Z", "fax_id": "FX-209", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:27.125Z", "fax_id": "FX-209", "event": "decision", "kind": "route", "category": "needs_review", "reasons": ["page 1 states: \"Attached page appears incomplete.\"", "page 1 states: \"Please see missing continuation page.\"", "page 1 states: \"No readable document category or destination found.\"", "page 1 has no recognizable document heading (title='FAX DOCUMENT')", "no document category could be established from the OCR text"], "duplicate_of": null}
+{"at": "2026-11-06T08:43:27.774Z", "fax_id": "FX-209", "event": "state", "frm": "DECIDED", "to": "SUBMIT_INTENT"}
+{"at": "2026-11-06T08:43:27.850Z", "fax_id": "FX-209", "event": "state", "frm": "SUBMIT_INTENT", "to": "SUBMITTED"}
+{"at": "2026-11-06T08:43:27.850Z", "fax_id": "FX-209", "event": "submit_outcome", "kind": "success", "url": "http://127.0.0.1:8765/faxes/FX-209?notice_type=success"}
+{"at": "2026-11-06T08:43:28.361Z", "fax_id": "FX-209", "event": "verify", "status": "verified", "match": true, "method": "fax detail page + Routed Documents table (fresh UI navigation)", "detail_status": "Routed", "observed_detail": {"assigned_to": "Jordan Ellis - Manual Review", "document_type": "Needs Review", "folder": "Review / Unclassified"}, "observed_work_queue": {"assigned_to": "Jordan Ellis - Manual Review", "document_type": "Needs Review", "folder": "Review / Unclassified"}, "verified_at": "2026-11-06T08:43:28.361Z", "session_id": "ewXu3QL0"}
+{"at": "2026-11-06T08:43:28.363Z", "fax_id": "FX-209", "event": "state", "frm": "SUBMITTED", "to": "DONE"}
+{"at": "2026-11-06T08:43:28.944Z", "fax_id": "FX-210", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:30.388Z", "fax_id": "FX-210", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:30.390Z", "fax_id": "FX-210", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:30.390Z", "fax_id": "FX-210", "event": "decision", "kind": "skip_duplicate", "category": "referral", "reasons": [], "duplicate_of": "FX-201"}
+{"at": "2026-11-06T08:43:30.392Z", "fax_id": "FX-210", "event": "state", "frm": "DECIDED", "to": "DONE"}
+{"at": "2026-11-06T08:43:30.962Z", "fax_id": "FX-211", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:32.305Z", "fax_id": "FX-211", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:32.308Z", "fax_id": "FX-211", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:32.308Z", "fax_id": "FX-211", "event": "decision", "kind": "route", "category": "imaging_report", "reasons": [], "duplicate_of": null}
+{"at": "2026-11-06T08:43:32.310Z", "fax_id": "FX-211", "event": "state", "frm": "DECIDED", "to": "DONE"}
+{"at": "2026-11-06T08:43:32.903Z", "fax_id": "FX-212", "event": "state", "frm": "DISCOVERED", "to": "DOWNLOADED"}
+{"at": "2026-11-06T08:43:36.657Z", "fax_id": "FX-212", "event": "state", "frm": "DOWNLOADED", "to": "EXTRACTED"}
+{"at": "2026-11-06T08:43:36.659Z", "fax_id": "FX-212", "event": "state", "frm": "EXTRACTED", "to": "DECIDED"}
+{"at": "2026-11-06T08:43:36.660Z", "fax_id": "FX-212", "event": "decision", "kind": "route", "category": "needs_review", "reasons": ["packet contains multiple document categories: p2=lab_result, p3=imaging_report"], "duplicate_of": null}
+{"at": "2026-11-06T08:43:37.299Z", "fax_id": "FX-212", "event": "state", "frm": "DECIDED", "to": "SUBMIT_INTENT"}
+{"at": "2026-11-06T08:43:37.376Z", "fax_id": "FX-212", "event": "state", "frm": "SUBMIT_INTENT", "to": "SUBMITTED"}
+{"at": "2026-11-06T08:43:37.376Z", "fax_id": "FX-212", "event": "submit_outcome", "kind": "success", "url": "http://127.0.0.1:8765/faxes/FX-212?notice_type=success"}
+{"at": "2026-11-06T08:43:37.896Z", "fax_id": "FX-212", "event": "verify", "status": "verified", "match": true, "method": "fax detail page + Routed Documents table (fresh UI navigation)", "detail_status": "Routed", "observed_detail": {"assigned_to": "Jordan Ellis - Manual Review", "document_type": "Needs Review", "folder": "Review / Unclassified"}, "observed_work_queue": {"assigned_to": "Jordan Ellis - Manual Review", "document_type": "Needs Review", "folder": "Review / Unclassified"}, "verified_at": "2026-11-06T08:43:37.896Z", "session_id": "h7ldEtlW"}
+{"at": "2026-11-06T08:43:37.898Z", "fax_id": "FX-212", "event": "state", "frm": "SUBMITTED", "to": "DONE"}
+{"at": "2026-11-06T08:43:37.932Z", "fax_id": null, "event": "run_finished"}
+{"at": "2026-11-06T08:43:38.192Z", "fax_id": null, "event": "run_started", "started_at": "2026-11-06T08:43:38.189Z", "base_url": "http://127.0.0.1:8765", "only": null}
+{"at": "2026-11-06T08:43:38.930Z", "fax_id": null, "event": "inventory", "count": 12, "fax_ids": ["FX-212", "FX-211", "FX-210", "FX-209", "FX-208", "FX-207", "FX-206", "FX-205", "FX-204", "FX-203", "FX-202", "FX-201"]}
+{"at": "2026-11-06T08:43:38.941Z", "fax_id": null, "event": "run_finished"}

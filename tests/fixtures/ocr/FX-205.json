@@ -1,0 +1,12 @@
+[
+  {
+    "page": 1,
+    "text": "HARBOR COMMUNITY PHARMACY\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nPRESCRIPTION REFILL REQUEST\n\nRequest number: RX-4005\nPatient: Sydney Patel\n\nDOB: 08/07/1988\n\nMedication: Lisinopril 10 mg tablet\nRequest: Renewal authorization requested\n\nPrescriber: Dr. M. Shaw\n\nPharmacy callback: (555) 010-0105\nNo dispensing authorization is implied by this fax.\n\nReply to pharmacy through normal clinic workflow.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-205 Pagel of1l\n",
+    "mean_conf": 91.9,
+    "word_count": 60,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-205 Page 1 of1",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-205\n\nPage 1 of 1"
+    ]
+  }
+]

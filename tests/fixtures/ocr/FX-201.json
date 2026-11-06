@@ -1,0 +1,22 @@
+[
+  {
+    "page": 1,
+    "text": "BAYVIEW FAMILY PRACTICE\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nFAX COVER SHEET\n\nTo: Harbor Specialty Clinic - Intake Department\nFrom: Bayview Family Practice\n\nNumber of pages (including cover): 2\n\nDate: November 3, 2026\nRE: Documents enclosed for new consultation\n\nConfidential patient paperwork follows on the next page.\n\nPlease route this packet according to the enclosed document.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-201 Pagel of 2\n",
+    "mean_conf": 94.6,
+    "word_count": 65,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-201 Page 1 of 2",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-201\n\nPage 1 of 2"
+    ]
+  },
+  {
+    "page": 2,
+    "text": "BAYVIEW FAMILY PRACTICE\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nNEW PATIENT REFERRAL REQUEST\n\nDocument ID: RF-3001\nPatient: Elena Hart\n\nDate of Birth: 04/16/1987\n\nReferring physician: Dr. Mira Gomez\nRequested service: Neurology consultation\n\nReason: Evaluation of recurrent headaches.\n\nPriority: Routine\n\nPlease review attached patient details.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-201 Page 2 of 2\n",
+    "mean_conf": 94.9,
+    "word_count": 54,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-201 Page 2 of 2",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-201\n\nPage 2 of 2"
+    ]
+  }
+]

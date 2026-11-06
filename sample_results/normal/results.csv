@@ -1,0 +1,13 @@
+fax_id,received_at,sender,classification,source_document_id,patient_name,patient_dob,flags,action,duplicate_of,assigned_to,document_type,folder,verification,session_a_ids,session_b_ids,submit_attempts,errors,recovery
+FX-201,2026-11-03 08:02,Bayview Family Practice,referral,RF-3001,Elena Hart,04/16/1987,,routed,,Olivia Chen - Referrals,Referral,Referrals / New,verified,tHnaPBVU,0o7bjY6B,1:success,0,0
+FX-202,2026-11-03 08:06,Summit Diagnostic Labs,lab_result,LAB-8302,Marcus Bell,09/03/1974,urgent_or_critical,needs_review,,Jordan Ellis - Manual Review,Needs Review,Review / Unclassified,verified,ULbM7zRL,S-VP_p0j,1:success,0,0
+FX-203,2026-11-03 08:12,Blue Ridge Medical,imaging_report,IMG-4003,Naomi Lee,12/11/1990,,routed,,Noah Patel - Clinical Review,Imaging Report,Clinical / Imaging,verified,JhKVfVUX,LLPlRX1M,1:success,0,0
+FX-204,2026-11-03 08:12,Blue Ridge Medical,prior_authorization,PA-4004,Oliver Grant,06/21/1983,,routed,,Ethan Brooks - Authorizations,Prior Authorization,Authorizations / Pending,verified,ZyacK_ms,PWraKBs4,1:success,0,0
+FX-205,2026-11-03 08:19,Harbor Community Pharmacy,refill_request,RX-4005,Sydney Patel,08/07/1988,,routed,,Ava Wilson - Nursing / Medication,Refill Request,Nursing / Medication,verified,bi-5MQZT,znEXS6wp,1:success,0,0
+FX-206,2026-11-03 08:25,Hillside Records Office,records_request,MR-4006,Cameron Blake,02/09/1980,,routed,,Mia Gomez - Medical Records,Records Request,Records / Requests,verified,s57HYYfg,FUoFKBfJ,1:success,0,0
+FX-207,2026-11-03 08:31,Example Health Plan,eob,EOB-4007,Jordan Clark,,,routed,,Liam Rivera - Billing,EOB,Billing / EOBs,verified,O3aHKxXW,c2yjgBBt,1:success,0,0
+FX-208,2026-11-03 08:37,Summit Diagnostic Labs,lab_result,LAB-4008,Talia Nguyen,01/27/1993,,routed,,Noah Patel - Clinical Review,Lab Result,Clinical / Labs,verified,mqRLMnHX,vowSan2P,1:success,0,0
+FX-209,2026-11-03 08:42,Unidentified Fax Number,unclassified,,,,incomplete;unclassified,needs_review,,Jordan Ellis - Manual Review,Needs Review,Review / Unclassified,verified,IkM4sDw4,ewXu3QL0,1:success,0,0
+FX-210,2026-11-03 08:49,Bayview Family Practice,referral,,Elena Hart,04/16/1987,confirmed_resend,skipped_duplicate,FX-201,,,,not_submitted,2ITocoS6,,,0,0
+FX-211,2026-11-03 08:54,Northbridge Imaging,imaging_report,IMG-4111,Elliot Brooks,07/18/1991,,already_routed,,,,,verified_existing_route,iA3HhZTN,,,0,0
+FX-212,2026-11-03 09:03,Central Care Associates,"mixed:[imaging_report,lab_result]",LAB-4012A,Riley Morgan,03/18/1979,mixed_packet,needs_review,,Jordan Ellis - Manual Review,Needs Review,Review / Unclassified,verified,KWmLI7Rp,h7ldEtlW,1:success,0,0

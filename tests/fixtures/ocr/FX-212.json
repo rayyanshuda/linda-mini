@@ -1,0 +1,32 @@
+[
+  {
+    "page": 1,
+    "text": "CENTRAL CARE ASSOCIATES\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nFAX COVER - MULTIPLE ENCLOSURES\n\nTransmission reference: PKT-4012\nPatient: Riley Morgan\n\nContains multiple documents with different purposes.\nPage 2: Laboratory result\nPage 3: Imaging interpretation\n\nPlease review entire packet before filing.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-212 Pagel of3\n",
+    "mean_conf": 91.8,
+    "word_count": 48,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-212 Page 1 of 3",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-212\n\nPage 1 of 3"
+    ]
+  },
+  {
+    "page": 2,
+    "text": "CENTRAL CARE ASSOCIATES\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nLABORATORY REPORT\n\nDocument number: LAB-4012A\nPatient: Riley Morgan\n\nDOB: 03/18/1979\n\nPanel: Thyroid function\nFinal report, routine\n\nThis page is a laboratory result.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-212 Page 2 of 3\n",
+    "mean_conf": 93.7,
+    "word_count": 41,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-212 Page 2 of 3",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-212\n\nPage 2 of 3"
+    ]
+  },
+  {
+    "page": 3,
+    "text": "CENTRAL CARE ASSOCIATES\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nRADIOLOGY REPORT\n\nDocument number: IMG-4012B\nPatient: Riley Morgan\n\nDOB: 03/18/1979\n\nExam: Ultrasound thyroid\nImpression: Please see radiologist narrative.\n\nThis page is an imaging report.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-212 Page 3 of 3\n",
+    "mean_conf": 94.5,
+    "word_count": 43,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-212 Page 3 of 3",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-212\n\nPage 3 of 3"
+    ]
+  }
+]

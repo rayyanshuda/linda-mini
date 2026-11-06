@@ -1,0 +1,12 @@
+[
+  {
+    "page": 1,
+    "text": "BLUE RIDGE MEDICAL\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nPRIOR AUTHORIZATION REQUEST\n\nRequest ID: PA-4004\nPatient: Oliver Grant\n\nDOB: 06/21/1983\n\nOrdering provider: Dr. S. Raman\nService requested: MRI lumbar spine\n\nPayer: Example Health Plan (synthetic)\n\nStatus: Documentation requested for prior authorization.\nPlease review coverage requirements.\n\nThis document is not an authorization approval.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-204 Pagel ofl\n",
+    "mean_conf": 91.8,
+    "word_count": 60,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-204 Pagel ofl",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-204\n\nPage 1 of 1"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "page": 1,
+    "text": "BLUE RIDGE RADIOLOGY\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nDIAGNOSTIC IMAGING REPORT\n\nAccession Number: IMG-4003\nPatient: Naomi Lee\n\nDOB: 12/11/1990\n\nStudy: MRI cervical spine without contrast\nStudy date: 11/01/2026\n\nFindings: Multilevel degenerative change.\n\nImpression: See full radiology findings.\nInterpreting radiologist: Dr. J. Webb\n\nFINAL RADIOLOGY REPORT\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-203 Page lofl\n",
+    "mean_conf": 91.8,
+    "word_count": 54,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-203 Pagelofl",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-203\n\nPage 1 of 1"
+    ]
+  }
+]

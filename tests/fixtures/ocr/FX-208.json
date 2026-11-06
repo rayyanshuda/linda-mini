@@ -1,0 +1,12 @@
+[
+  {
+    "page": 1,
+    "text": "SUMMIT DIAGNOSTIC LABS\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nLABORATORY REPORT\n\nReport ID: LAB-4008\nPatient: Talia Nguyen\n\nDOB: 01/27/1993\n\nOrdering physician: Dr. T. Howe\nCollection date: 11/02/2026\n\nPanel: CBC with differential\n\nStatus: Final\nResults: See values on following table\n\nNo urgent flag provided on this report.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-208 Pagel ofl\n",
+    "mean_conf": 92.3,
+    "word_count": 54,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-208 Pagel ofl",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-208\n\nPage 1 of 1"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "page": 1,
+    "text": "BAYVIEW FAMILY PRACTICE\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nFAX RESEND - REFERRAL REQUEST\n\nOriginal Document ID: RF-3001\nOriginal sent date: 11/03/2026\n\nPatient: Elena Hart\n\nDOB: 04/16/1987\nReferring physician: Dr. Mira Gomez\n\nRequested specialty: Neurology\n\nReason: Evaluation of recurrent headaches.\nPlease disregard if original was received.\n\nThis is a retransmission of the same referral.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-210 Pagel of1\n",
+    "mean_conf": 92.2,
+    "word_count": 62,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-210 Page lofl",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-210\n\nPage lofl"
+    ]
+  }
+]

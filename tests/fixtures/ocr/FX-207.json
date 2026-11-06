@@ -1,0 +1,12 @@
+[
+  {
+    "page": 1,
+    "text": "EXAMPLE HEALTH PLAN\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nEXPLANATION OF BENEFITS (EOB)\n\nRemittance ID: EOB-4007\nMember: Jordan Clark\n\nService date: 10/21/2026\n\nClaim reference: C-10778\nBilled amount: $320.00\n\nAllowed amount: $244.00\n\nPlan paid: $195.20\nPatient responsibility: $48.80\n\nThis is not a bill to the patient.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-207 Page lof1l\n",
+    "mean_conf": 91.4,
+    "word_count": 53,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-207. Pagelofl",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-207\n\nPage 1 of 1"
+    ]
+  }
+]

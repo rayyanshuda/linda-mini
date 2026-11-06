@@ -1,0 +1,12 @@
+[
+  {
+    "page": 1,
+    "text": "UNKNOWN SENDER\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nFAX DOCUMENT\n\nTransmission ID: U-4009\nSubject: Patient paperwork\n\nAttached page appears incomplete.\n\nPlease see missing continuation page.\n\nNo readable document category or destination found.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-209 Pagel ofl\n\n",
+    "mean_conf": 90.1,
+    "word_count": 40,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-209 Page 1 of1",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-209\n\nPage 1 of 1"
+    ]
+  }
+]

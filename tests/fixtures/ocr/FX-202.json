@@ -1,0 +1,12 @@
+[
+  {
+    "page": 1,
+    "text": "SUMMIT DIAGNOSTIC LABS\n\nFAX TRANSMISSION / SCANNED DOCUMENT\n\nLABORATORY RESULTS\n\nDocument reference: LAB-8302\nPatient: Marcus Bell\n\nDOB: 09/03/1974\n\nOrdering clinician: Dr. Anika Das\nCollection date: 11/02/2026\n\nPanel: Basic metabolic panel\n\nResult: Potassium 6.3 mmol/L\n\nCRITICAL RESULT - CALLING PROVIDER\n\nCritical value notification documented at 07:55.\n\nFor immediate review by authorized clinical personnel.\n\nCONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-202 Page 1of1\n",
+    "mean_conf": 92.0,
+    "word_count": 61,
+    "footer_readings": [
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\nTransmission FX-202 Page lofl",
+      "CONFIDENTIAL - SYNTHETIC TRAINING DOCUMENT\n\nTransmission FX-202\n\nPage lofl"
+    ]
+  }
+]
